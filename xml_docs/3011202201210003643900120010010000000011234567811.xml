@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+              <ns2:RespuestaAutorizacion xsi:type='ns2:autorizacion' xmlns:ns2='http://ec.gob.sri.ws.autorizacion' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+              <estado>AUTORIZADO</estado>
+              <numeroAutorizacion>3011202201210003643900120010010000000011234567811</numeroAutorizacion>
+              <fechaAutorizacion>2022-11-30T15:35:29-05:00</fechaAutorizacion>
+              <ambiente>PRODUCCIÓN</ambiente>
+              <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>TRAVEZ IZA NOEMI EULALIA </razonSocial>
+<nombreComercial>TRAVEZ IZA NOEMI EULALIA </nombreComercial>
+<ruc>2100036439001</ruc>
+<claveAcceso>3011202201210003643900120010010000000011234567811</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000000001</secuencial>
+<dirMatriz>AMAZONAS S/N Y VIA QUITO. LAGO AGRIO</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>30/11/2022</fechaEmision>
+<dirEstablecimiento>AMAZONAS S/N Y VIA QUITO. LAGO AGRIO</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>OCHOA ARMIJOS ERIK FRANCISCO</razonSocialComprador>
+<identificacionComprador>2100673033001</identificacionComprador>
+<totalSinImpuestos>3.5</totalSinImpuestos>
+<totalDescuento>0</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<baseImponible>3.5</baseImponible>
+<valor>0.42</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>3.92</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>01</formaPago>
+<total>3.92</total>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>FAM.TIP.001</codigoPrincipal>
+<codigoAuxiliar>00001</codigoAuxiliar>
+<descripcion>CUCHARAS</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>3.5</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>3.5</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>3.5</baseImponible>
+<valor>0.42</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Direccion">LAGO AGRIO</campoAdicional>
+<campoAdicional nombre="Telefono">0996820855</campoAdicional>
+<campoAdicional nombre="Email">erik_8a24004@hotmail.es</campoAdicional>
+<campoAdicional nombre="Observaciones"> CONTRIBUYENTE REGIMEN RIMPE           </campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature920618">
+<ds:SignedInfo Id="Signature-SignedInfo405259">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID393102" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature920618-SignedProperties842776">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>p+wLsDvhXf6x8v7I6KJXNHmQaQI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1382845">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>J0w4L8j9L5Lmfnt9eHh/Gh6KnU4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-537776" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>bD4jDmHoTVsmex+JwVq9n0kmdU4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue365540">
+PNJc2zXmM2YIlJ1+1PoIoVPHl64pQhW1IwuNu7xM1GG4qdiiNxXppz78LOIzhak/6m8BGY5r3HM+
+NcLfLU1DH+9dGec6OlhH9Mf7qKoWET0uNpwedLoBigpWwTT2m7MQOzsNn1kYy0pApyYVfc0AOzp9
+/UOeCu7GOmzzswgui9N/a2WPLhZw5ddaXIYk0a/dxdXfg1KCCMXu7MsOZTPZeb/nL3FQmKoS1kI9
+gyFCHewdsahRLCy9d9fABJ48b5//Qod7CDWN3fLI4fPsR/XsWhTN1iJCEQtWMtaZgYlZNtIxhqVi
+Q7nsyilWTNTT/YLnKm+XUMEhfH2HDGkXsHWQPg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1382845">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJEzCCBvugAwIBAgIIe2K+8CUMk5AwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIyMTEyNjIzNTAwMFoXDTI0MTEyNTIzNTAwMFowgZYxCzAJBgNVBAYTAkVDMRMwEQYDVQQEDApU
+UkFWRVogSVpBMRYwFAYDVQQqDA1OT0VNSSBFVUxBTElBMRkwFwYDVQQFExBJRENFQy0yMTAwMDM2
+NDM5MSEwHwYDVQQDDBhOT0VNSSBFVUxBTElBIFRSQVZFWiBJWkExHDAaBgNVBGEME1RJTkVDLTIx
+MDAwMzY0MzkwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCQJlx0uw6/4RCs+62W
+iAm03SjWXOKNeDk0aDJOyEznKzuscdTPn/6kvOzfe/02ixISfA8lSspZFOOQRZtnjtvgrIlwE2Vn
+gMjyTs4n80wCbKk6J+p3BVk5FKmSj5yWwCiuZsTB6tTnL15OtVzkSEYZdA1CBSdMb9FbcRDWjYBL
+zxtfYyqpc/vdSFf78VaAdW7AqT5pU+cjPvITrrjtyrGFCzqcoiMLq27mZrWxTGzPXr8oysWEmzkH
+1ZWLCBir0Map2exdTVA3DfJAUiH+ZOvvOI3CpPGJLp1PWXLIVPm3xPyDd6op8xR7HFuqQRVTwKOj
+RpgeqrypTqBL3ZvHUqwbAgMBAAGjggQ/MIIEOzAbBgsrBgEEAYLxNmYDAQQMDAoyMTAwMDM2NDM5
+MB4GCysGAQQBgvE2ZgMLBA8MDTIxMDAwMzY0MzkwMDEwgdcGCCsGAQUFBwEBBIHKMIHHMFUGCCsG
+AQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvZG93bmxvYWQvdHNwX2NlcnRp
+ZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUFBzABhipodHRwOi8vb2NzcDEudWFuYXRh
+Y2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMi51YW5hdGFj
+YS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQULJTmiPEFiCmIUhqKg2ImBygGCKYwDAYD
+VR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqnio2jw4RGydJJz/TCBmQYDVR0gBIGRMIGO
+MIGLBgwrBgEEAYLxNmYCAQEwezA3BggrBgEFBQcCARYraHR0cHM6Ly93d3cudWFuYXRhY2EuY29t
+L3B1YmxpYy9wa2kvZHBjLWVjLzBABggrBgEFBQcCAjA0DDJDRVJUSUZJQ0FETyBERSBQRVJTT05B
+IE5BVFVSQUwgTyBGSVNJQ0EgRU4gQVJDSElWTzCBjwYDVR0fBIGHMIGEMECgPqA8hjpodHRwOi8v
+Y3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3JkaW5hZGEuY3JsMECgPqA8
+hjpodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3JkaW5hZGEu
+Y3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggF1BgNV
+HREEggFsMIIBaIEXbm9lbWkudHJhdmV6QG91dGxvb2suZXOgGwYLKwYBBAGC8TZmAwGgDAwKMjEw
+MDAzNjQzOaAeBgsrBgEEAYLxNmYDAqAPDA1OT0VNSSBFVUxBTElBoBcGCysGAQQBgvE2ZgMDoAgM
+BlRSQVZFWqAUBgsrBgEEAYLxNmYDBKAFDANJWkGgKQYLKwYBBAGC8TZmAwegGgwYQU1BWk9OQVMg
+Uy9OIFkgVklBIFFVSVRPoB8GCysGAQQBgvE2ZgMIoBAMDjAwNTkzOTU5Njc5MTIwoBsGCysGAQQB
+gvE2ZgMJoAwMCkxBR08gQUdSSU+gHgYLKwYBBAGC8TZmAwugDwwNMjEwMDAzNjQzOTAwMaATBgsr
+BgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05BIE5BVFVSQUwgTyBGSVNJ
+Q0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsFAAOCAgEAD2DgTULpCcuH
+E1FeXxqo6ww9O0HsoSeY2sdigsdNMTk8Hvf14LKor0i7BZ4MT7qti2yJH3nsAtRCTwOeFVyF2sS1
+fDQqeJ+MZfDKv//y2OX9o5tLt4TzwPWqvTrw8lDYqwOVqJQZgURc45WEGR4ESldJhfGgcQkjISM+
+ZEitYolpBQiJ2S9eRKaquI88rQNnoCDSTc1+alkFlkK2KBWGP8cEepdzkrVI2H13N7EALe8b6KdO
+H7UceyTJkkRoFJAhzSQW5nlnKyW2er2KlO7yMdulWlosOG/1yJfjibW3bLIhEGHR7XZfwcvXq7WO
+rUHkbFXyZzlqagHIG6La9bpR+BrFCUkW5QADQlvKEmy+Tpb91kOTROElWJXLET8eGsJ5ZHuyWHwD
+9aRQEiDLGH46rD4mdTNNDFOLWWdKBRwBa5LX0cz3OTCFFIs9kAysnobKPaQVrRUtH1QvdN4mrJxU
+69R91L5WpIqgvh6hLXm+MMheVUg16+/teZi+muvAmTsafIbSBtx5XhklyxxV8N3cA7U7LcqpKSDX
+fuVl+K9cWq7dRlz5ESBPeCOAn+T8Svus6zyJ4QuPWF0nVeTsPieIURuxaamNHgPsMJs3+d17ftdx
+WGoA4yMF/adowHtAYufwJ4r1MuJernaj8cyc1TUJuEfTI36D9ABgK2UmN6MAy0A=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+kCZcdLsOv+EQrPutlogJtN0o1lzijXg5NGgyTshM5ys7rHHUz5/+pLzs33v9NosSEnwPJUrKWRTj
+kEWbZ47b4KyJcBNlZ4DI8k7OJ/NMAmypOifqdwVZORSpko+clsAormbEwerU5y9eTrVc5EhGGXQN
+QgUnTG/RW3EQ1o2AS88bX2MqqXP73UhX+/FWgHVuwKk+aVPnIz7yE6647cqxhQs6nKIjC6tu5ma1
+sUxsz16/KMrFhJs5B9WViwgYq9DGqdnsXU1QNw3yQFIh/mTr7ziNwqTxiS6dT1lyyFT5t8T8g3eq
+KfMUexxbqkEVU8Cjo0aYHqq8qU6gS92bx1KsGw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature920618-Object492086"><etsi:QualifyingProperties Target="#Signature920618"><etsi:SignedProperties Id="Signature920618-SignedProperties842776"><etsi:SignedSignatureProperties><etsi:SigningTime>2022-11-30T15:35:27-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>UK6NNl6gcwknYjIcSSPEs695M7M=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>8890878553005790096</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-537776"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+              <mensajes/>
+              </ns2:RespuestaAutorizacion>
